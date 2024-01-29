@@ -30,12 +30,13 @@
       <main>
         <div class="data-container">
           <div>
-            <h1 class="data-current-city" id="current-city">Paris</h1>
+            <h1 class="data-current-city" id="current-city"></h1>
 
             <p class="data-current-weather">
-              Friday 19:05, clear sky
+              <span id="time"></span>, <span id="description"></span>
               <br />
-              Humidity: <strong>69%</strong>, Wind: <strong>3.09km/h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind"></strong>
             </p>
           </div>
           <div class="data-current-temperature">
@@ -43,9 +44,7 @@
             <div
               class="current-temperature-value"
               id="current-temperature-value"
-            >
-              6
-            </div>
+            ></div>
             <div class="current-temperature-unit">°C</div>
           </div>
         </div>
