@@ -11,6 +11,13 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 18px;
 }
+header {
+  border-bottom: 1px solid #f5fee6;
+  padding: 0 0 30px;
+}
+a {
+  color: #8cc528;
+}
 .search-form-input {
   background-color: #f5fee6;
   border: none;
@@ -20,11 +27,63 @@ body {
   font-size: 16px;
 }
 .search-form-button {
-  background: #a3ed28;
+  background: #8cc528;
   border: none;
   padding: 15px 30px;
   border-radius: 6px;
   color: white;
   font-size: 16px;
   margin-left: 5px;
+}
+main {
+  padding: 30px 0;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin: 0px;
+  font-size: 38px;
+  line-height: 48px;
+}
+.data-current-city {
+  margin: 0;
+  font-size: 44px;
+  line-height: 48px;
+}
+.data-current-weather {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+.data-current-weather strong {
+  color: #8cc528;
+}
+.data-current-temperature {
+  display: flex;
+}
+.current-weather-icon {
+  font-size: 44px;
+  width: 88px;
+  height: 88px;
+  margin-top: 22px;
+}
+.current-temperature-value {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+.current-temperature-unit {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 28px;
+}
+footer {
+  border-top: 1px solid #f5fee6;
+  padding: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
 }
