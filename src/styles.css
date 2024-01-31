@@ -93,7 +93,11 @@ h1 {
 .forecast-temp {
   font-size: 13px;
 }
+.forecast-max {
+  color: #8cc528;
+}
 .forecast-min {
+  color: #8cc528;
   opacity: 0.5;
 }
 footer {
