@@ -80,10 +80,10 @@ function displayForecast(response) {
 <div class="row">
   <div class="columns">
     <div class="forecast-date">${formatDay(day.time)}</div>
-    <img
+    <img 
       src="${day.condition.icon_url}"
       alt="forecast-icon"
-      width="42"
+    
     />
     <div class="forecast-temp">
       <span class="forecast-max">

@@ -90,6 +90,12 @@ h1 {
   font-size: 16px;
   opacity: 0.5;
 }
+.forecast-icon {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+}
 .forecast-temp {
   font-size: 13px;
 }
